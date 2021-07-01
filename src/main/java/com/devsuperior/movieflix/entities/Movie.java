@@ -48,6 +48,10 @@ public class Movie implements Serializable {
 		this.imgUrl = imgUrl;
 		this.synopsis = synopsis;
 	}
+	
+	public Movie(Long id) {
+		this.id = id;
+	}
 
 	public Long getId() {
 		return id;
