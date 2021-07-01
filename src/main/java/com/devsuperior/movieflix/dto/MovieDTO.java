@@ -100,5 +100,4 @@ public class MovieDTO implements Serializable {
 	public void setGenre(GenreDTO genreDTO) {
 		this.genre = genreDTO;
 	}
-
 }
